@@ -12,6 +12,10 @@ td, th {
 	border: 1px solid;
 }
 
+td{ 
+    font-style: italic;
+}
+
 body {
     background-image: url('../images/background.jpg');
     background-size: cover;
