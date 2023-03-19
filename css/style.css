@@ -22,7 +22,7 @@ body {
 }
 
 #planets {
-    background-color: rgba(0,0,0,.6); /* adjust the last value to change the opacity */
+    background-color: rgba(0,0,0,.6);
     
     margin: 0 auto;
     width: 75%;
@@ -49,4 +49,8 @@ body {
     filter: blur(1.75px);
     opacity: .7;
     background-color: rgba(0,0,0,.6);
+}
+
+#delete {
+    opacity: 0;
 }
