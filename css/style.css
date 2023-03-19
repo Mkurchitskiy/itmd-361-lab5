@@ -1,0 +1,45 @@
+ 
+h1, td, th{
+    text-align: center;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    color: white;
+}
+
+td, th {
+	border: 1px solid;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+#planets {
+    background-color: rgba(0,0,0,.6); /* adjust the last value to change the opacity */
+    
+    margin: 0 auto;
+    width: 75%;
+}
+
+.rowHeaders {
+    font-weight: bold;
+}
+
+#milkyway {
+    position: relative;
+    top: 130px;
+    left: 75%; 
+}
+
+#galaxy {
+    position: relative;
+    top: 95px;
+    left: 5%;  
+}
+
+.backgroundPictures {
+    z-index: -1;
+    filter: blur(1.75px);
+    opacity: .7;
+    background-color: rgba(0,0,0,.6);
+}
