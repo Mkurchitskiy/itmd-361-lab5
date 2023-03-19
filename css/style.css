@@ -27,14 +27,14 @@ body {
 
 #milkyway {
     position: relative;
-    top: 130px;
-    left: 75%; 
+    top: 120px;
+    left: 60%; 
 }
 
 #galaxy {
     position: relative;
     top: 95px;
-    left: 5%;  
+    left: 0%;  
 }
 
 .backgroundPictures {
